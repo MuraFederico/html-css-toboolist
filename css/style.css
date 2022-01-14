@@ -4,18 +4,31 @@
     box-sizing: border-box;
 }
 
-main{
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
     background-color: #f6f8f9;
-    padding-top: 20px;
+}
+
+header{
+    font-size: 36px;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.logo{
+    width: 2.5em;
+}
+
+main{
+    padding-top: 80px;
     padding-left: 20%;
     padding-right: 20%;
 }
 
-header{
-    margin: 10px 15px;
-}
-
-.titolo{
+.inline-block{
     display: inline-block;
 }
 
@@ -24,14 +37,16 @@ header{
 }
 
 
-.btn-section{
+.btn_container{
     background-color: white;
-    margin: 30px ;
+    /* margin: 30px ; */
     padding: 25px 100px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 button{
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 1em;
 }
 
@@ -44,3 +59,83 @@ button{
     background-color: white;
     color: #d2d6da;
 }
+
+.list_container{
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 70px 100px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.list{
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+li{
+    padding: 20px;
+}
+
+.list_title{
+   font-size: 30px; 
+}
+
+.check{
+    color: #70c6b1;
+    padding: 5px;
+    border-width: 1px;
+    border-color: #70c6b1;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.cross{
+    color: #ef7d78;
+    padding: 5px;
+    border-width: 1px;
+    border-color: ##ef7d78;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.container{
+    padding: 7px;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.editorial{
+    border-color: #46abea;
+    background-color: #46abea;
+}
+
+.q1{
+    border-color: #9c72e4;
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    border-color: #64c0a9;
+    background-color: #64c0a9;
+}
+
+.mobile{
+    border-color: #f29e33;
+    background-color: #f29e33;
+}
+
+.website{
+    border-color: #d863a1;
+    background-color: #d863a1;
+}
+
+.sales{
+    border-color: #b0c926;
+    background-color: #b0c926;
+}
+
+
